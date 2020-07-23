@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default navMenu" role="navigation">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="./image/logo.png"></a>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Danh mục sản phẩm <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Văn học</a></li>
+                                    <li><a href="#">Kinh tế</a></li>
+                                    <li><a href="#">Tâm lý - Kĩ năng sống</a></li>
+                                    <li><a href="#">Sách nuôi dạy con</a></li>
+                                    <li><a href="#">Giáo khoa cấp 1</a></li>
+                                    <li><a href="#">Giáo khoa cấp 2</a></li>
+                                    <li><a href="#">Giáo khoa cấp 3</a></li>
+                                    <li><a href="#">Sách truyện tranh</a></li>
+                                    <li><a href="#">Sách ngoại ngữ</a></li>
+                                    <li><a href="#">Sách lập trình</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">
+                                    <b><i class="fa fa-shopping-cart"></i></b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">ĐĂNG NHẬP</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">ĐĂNG KÍ</a>
+                            </li>
+                        </ul>
+
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="3" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="4" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="5" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./image/b1.webp">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2>Nâng tầm tri thức</h2>
+                            <h2>Cháp cánh ước mơ.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./image/b6.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2>Một cuốn sách hay cho ta một điều tốt, </h2>
+                            <h2>một người bạn tốt cho ta một điều hay</h2>
+                            <h2>(Gustavơ Lebon)</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./image/b3.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2>Trước những cuốn sách, tất cả mọi thứ đều mờ nhạt đi.</h2>
+                            <h2>(A.Sêkhốp)</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/b5.webp">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2>Bạn thân để tình, sách quý để nghĩa</h2>
+                            <h2>(Mason Uerơlen)</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./image/b7.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h2> Đọc muôn quyển sách, đi muôn dặm đường.</h2>
+                            <h2>(Thành ngữ)</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./image/b8.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span
+                    class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span
+                    class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+    <!--****************************** VĂN HỌC ***********************************-->
+    <div class="container">
+        <div class="row row1">
+            <h3 class="title">VĂN HỌC</h3>
+            <div class="col-md-12 contentWarpper">
+                <div class="content">
+                    <img src="./image/dauchantrencat.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Dấu chân trên cát</div>
+                    <p class="newPrice">154.000 đ</p>
+                    <p class="oldPrice">192.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/thinh.jpg">
+                    <div class="sales">25%</div>
+                    <div class="name">Em rắc thính, anh thả tình</div>
+                    <p class="newPrice">75.000 đ</p>
+                    <p class="oldPrice">100.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/luananhhung.jpg">
+                    <div class="sales">25%</div>
+                    <div class="name">Luận anh hùng</div>
+                    <p class="newPrice">140.000 đ</p>
+                    <p class="oldPrice">185.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/99lathuchochinhminh.jpg">
+                    <div class="sales">30%</div>
+                    <div class="name">99 lá thư cho chính mình</div>
+                    <p class="newPrice">117.000 đ</p>
+                    <p class="oldPrice">155.000 đ</p>
+                </div>
+               
+            </div>
+            <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <!--****************************** KINH TE ***********************************-->
+    <div class="container">
+        <div class="row row1">
+            <h3 class="title">KINH TẾ</h3>
+            <div class="col-md-12 contentWarpper">
+                <div class="content">
+                    <img src="./image/kinangbanhang.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Kĩ năng bắn hàng tuyệt đỉnh</div>
+                    <p class="newPrice">80.000 đ</p>
+                    <p class="oldPrice">100.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/hieuungchimmoi.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Hiệu ứng chim mồi</div>
+                    <p class="newPrice">88.000 đ</p>
+                    <p class="oldPrice">110.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/tiendauvoivang.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Tiền đấu với vàng</div>
+                    <p class="newPrice">112.000 đ</p>
+                    <p class="oldPrice">140.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/neutoicon20.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Nếu biết được khi còn 20</div>
+                    <p class="newPrice">120.000 đ</p>
+                    <p class="oldPrice">150.000 đ</p>
+                </div>
+                
+            </div>
+            <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+
+    <!--****************************** TÂM LÝ - KĨ NĂNG SỐNG ***********************************-->
+    <div class="container">
+        <div class="row row1">
+            <h3 class="title">TÂM LÝ - KĨ NĂNG SỐNG</h3>
+            <div class="col-md-12 contentWarpper">
+                <div class="content">
+                    <img src="./image/keoankheonoi.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Khéo ăn khéo nói có được thiên hạ</div>
+                    <p class="newPrice">160.000 đ</p>
+                    <p class="oldPrice">200.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/docvibatkiai.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Đọc vị bất kì ai</div>
+                    <p class="newPrice">75.000 đ</p>
+                    <p class="oldPrice">100.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/taisaophuongtaylaivuottroi.jpg">
+                    <div class="sales">25%</div>
+                    <div class="name">Tại sao phương tây lại vượt trội</div>
+                    <p class="newPrice">120.000 đ</p>
+                    <p class="oldPrice">144.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/trochuyencungtony.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Bộ sách trò chuyện cùng Tony</div>
+                    <p class="newPrice">200.000 đ</p>
+                    <p class="oldPrice">240.000 đ</p>
+                </div>
+                
+            </div>
+            <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+
+    <!--****************************** NUÔI DẠY CON ***********************************-->
+    <div class="container">
+        <div class="row row1">
+            <h3 class="title">NUÔI DẠY CON</h3>
+            <div class="col-md-12 contentWarpper">
+                <div class="content">
+                    <img src="./image/thoikinhaycamcuatre.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Thời kì nhạy cảm của trẻ</div>
+                    <p class="newPrice">160.000 đ</p>
+                    <p class="oldPrice">200.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/giupcontulap.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Giúp con tự lập</div>
+                    <p class="newPrice">75.000 đ</p>
+                    <p class="oldPrice">100.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/biquyetgiupcongioitienganh.jpg">
+                    <div class="sales">25%</div>
+                    <div class="name">Bí quyết giúp con giỏi tiếng anh</div>
+                    <p class="newPrice">120.000 đ</p>
+                    <p class="oldPrice">144.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/anuonglahp.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Ăn uống là hạnh phúc</div>
+                    <p class="newPrice">60.000 đ</p>
+                    <p class="oldPrice">84.000 đ</p>
+                </div>
+                
+            </div>
+            <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <a href="#" id="link1" class="viewAdd">Xem thêm loại sách khác &raquo;</i></a>
+
+    <!--****************************** SÁCH GIÁO KHOA CẤP 1" ***********************************-->
+    <div class="container toggle">
+        <div class="row row1">
+            <h3 class="title">SÁCH GIÁO KHOA CẤP 1</h3>
+            <div class="col-md-12 contentWarpper">
+                <div class="content">
+                    <img src="./image/bosachlop2.jpg">
+                    <div class="sales">30%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 2 (13 cuốn)</div>
+                    <p class="newPrice">140.000 đ</p>
+                    <p class="oldPrice">190.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/bosachlop3.jpg">
+                    <div class="sales">30%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 3 (13 cuốn)</div>
+                    <p class="newPrice">120.000 đ</p>
+                    <p class="oldPrice">160.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/bosachlop4.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 4 (14 cuốn)</div>
+                    <p class="newPrice">150.000 đ</p>
+                    <p class="oldPrice">180.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/bosachlop5.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 5 (14 cuốn)</div>
+                    <p class="newPrice">140.000 đ</p>
+                    <p class="oldPrice">170.000 đ</p>
+                </div>
+               
+            </div>
+            <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+    </div>
+
+    <!--****************************** NUÔI DẠY CON ***********************************-->
+
+    <div class="container toggle">
+        <div class="row row1">
+            <h3 class="title">SÁCH GIÁO KHOA CẤP 2</h3>
+            <div class="col-md-12 contentWarpper">
+                <div class="content">
+                    <img src="./image/bosachlop6.jpg">
+                    <div class="sales">25%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 6 (12 cuốn)</div>
+                    <p class="newPrice">160.000 đ</p>
+                    <p class="oldPrice">190.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/bosachlop7.jpg">
+                    <div class="sales">25%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 7 (12 cuốn)</div>
+                    <p class="newPrice">170.000 đ</p>
+                    <p class="oldPrice">210.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/bosachlo8.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 8 (13 cuốn)</div>
+                    <p class="newPrice">180.000 đ</p>
+                    <p class="oldPrice">236.000 đ</p>
+                </div>
+                <div class="content">
+                    <img src="./image/bosachlop9.jpg">
+                    <div class="sales">20%</div>
+                    <div class="name">Bộ sách giáo khoa lớp 9 (12 cuốn)</div>
+                    <p class="newPrice">200.000 đ</p>
+                    <p class="oldPrice">240.000 đ</p>
+                </div>
+               
+            </div>
+             <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <a href="#" id="link2" class="viewAdd">Ẩn bớt đi &raquo;</i></a>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row row1">
+                <div class="col-12-md contentWarpper">
+                    <div class="service">
+                        <h2>Dịch vụ</h2>
+                        <p>Điều khoản sử dụng</p>
+                        <p>Chính sách bảo mật</p>
+                        <p>Chính sách tư vấn khách hàng</p>
+                        <p>Hệ thống trung tâm - nhà sách</p>
+                    </div>
+                    <div class="support">
+                        <h2>Hỗ trợ</h2>
+                        <p>Chính sách đổi - trả - hoàn tiền</p>
+                        <p>Phương thức giao hàng</p>
+                        <p>Phương thức thanh toán</p>
+                    </div>
+                    <div class="myAccount">
+                        <h2>Tài khoản của tôi</h2>
+                        <p>Đăng nhập</p>
+                        <p>Tạo tài khoản</p>
+                        <p>Chi tiết tài khoản</p>
+                        <p>Lịch sử mua hàng</p>
+                    </div>
+                    <div class="contact">
+                        <h2>Liên hệ</h2>
+                        <p>Địa chỉ: Hồ Tùng Mậu - Cầu Giấy - Hà Nội</p>
+                        <p>Website: https://bookstore.com.vn</p>
+                        <p>Email: bookstore@gmail.com</p>
+                        <p>SDT: 0868866994</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contactWrapperFooter">
+                <div class="contactAplication">
+                    <img src="./image/qr.png" alt="">
+                    <img src="./image/appstore.png" alt="">
+                    <img style="padding-top: 4px;" src="./image/googleplay.png" alt="">
+                </div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.8876739948128!2d105.77392931403344!3d21.0371799859938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455f90fe8ad65%3A0xec38b94cb36de0ab!2zSOG7hyBUaOG7kW5nIMSQw6BvIHThuqFvIENOVFQgLSBUM0ggSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1595265203534!5m2!1svi!2s"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                <div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>
+        showElement();
+    </script>
+
+</body>
+
+</html>

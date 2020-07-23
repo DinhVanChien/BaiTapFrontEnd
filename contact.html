@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./contactStyle.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                <form action="./bookstore.html" id="form"  onsubmit="return validateRegister()" method="" role="form">
+                    <legend>Đăng kí tài khoản</legend>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <a style="color: white;">Continue with Facebook</a>
+                        </div>
+                       
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a>Continue with Google</a>
+                        </div>
+                    </div>
+                    <p id="erroEmail"></p>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <p id="erroPhone"></p>
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại</label>
+                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone">
+                    </div>
+                    <p id="erroUsername"></p>
+                    <div class="form-group">
+                        <label for="username">Tên đăng nhập</label>
+                        <input type="text" class="form-control" name="username" id="username"
+                            placeholder="Tên đăng nhập">
+                    </div>
+                    <p id="erroPass"></p>
+                    <label for="password">Password</label><br>
+                    <input type="password" class="form-control" name="password" id="password"
+                        placeholder="Password"><br>
+
+                    <p id="passwordConError"></p>
+                    <label for="passwordCon">Password Confirm</label><br>
+                    <input type="password" class="form-control" name="passwordCon" id="passwordCon"
+                        placeholder="Nhập lại password"><br>
+                    <button class="btn btn-primary">Đăng kí</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
